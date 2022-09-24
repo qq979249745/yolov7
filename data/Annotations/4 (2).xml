@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>mhImages</folder>
+<filename>4 (2).jpg</filename>
+<path>D:\mhImages\4 (2).jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>800</width>
+    <height>1271</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>boxBad</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>3</xmin>
+        <ymin>8</ymin>
+        <xmax>189</xmax>
+        <ymax>155</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBad</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>447</xmin>
+        <ymin>248</ymin>
+        <xmax>780</xmax>
+        <ymax>514</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>588</xmin>
+        <ymin>856</ymin>
+        <xmax>793</xmax>
+        <ymax>1099</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>3</xmin>
+        <ymin>8</ymin>
+        <xmax>795</xmax>
+        <ymax>272</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>0</xmin>
+        <ymin>233</ymin>
+        <xmax>795</xmax>
+        <ymax>829</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>0</xmin>
+        <ymin>790</ymin>
+        <xmax>792</xmax>
+        <ymax>1264</ymax>
+    </bndbox>
+</object>
+</annotation>

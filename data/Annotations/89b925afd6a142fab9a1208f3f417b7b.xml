@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>mhImages</folder>
+<filename>89b925afd6a142fab9a1208f3f417b7b.jpg</filename>
+<path>D:\mhImages\89b925afd6a142fab9a1208f3f417b7b.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>800</width>
+    <height>1271</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>boxCube</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>27</xmin>
+        <ymin>119</ymin>
+        <xmax>216</xmax>
+        <ymax>212</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>588</xmin>
+        <ymin>56</ymin>
+        <xmax>744</xmax>
+        <ymax>167</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxEllipse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>411</xmin>
+        <ymin>332</ymin>
+        <xmax>654</xmax>
+        <ymax>574</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxEllipse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>30</xmin>
+        <ymin>856</ymin>
+        <xmax>207</xmax>
+        <ymax>1057</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxEllipse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>519</xmin>
+        <ymin>970</ymin>
+        <xmax>762</xmax>
+        <ymax>1195</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>36</xmin>
+        <ymin>53</ymin>
+        <xmax>759</xmax>
+        <ymax>880</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>588</xmin>
+        <ymin>56</ymin>
+        <xmax>759</xmax>
+        <ymax>601</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>30</xmin>
+        <ymin>859</ymin>
+        <xmax>762</xmax>
+        <ymax>1198</ymax>
+    </bndbox>
+</object>
+</annotation>

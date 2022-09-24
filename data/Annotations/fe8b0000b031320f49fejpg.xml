@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>mhImages</folder>
+<filename>fe8b0000b031320f49fejpg.jpg</filename>
+<path>D:\mhImages\fe8b0000b031320f49fejpg.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>800</width>
+    <height>910</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>boxEllipse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>313</xmin>
+        <ymin>499</ymin>
+        <xmax>733</xmax>
+        <ymax>779</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>226</xmin>
+        <ymin>106</ymin>
+        <xmax>733</xmax>
+        <ymax>783</ymax>
+    </bndbox>
+</object>
+</annotation>

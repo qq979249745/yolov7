@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>mhImages</folder>
+<filename>7 (1).jpg</filename>
+<path>D:\mhImages\7 (1).jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>800</width>
+    <height>1271</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>boxBad</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>15</xmin>
+        <ymin>32</ymin>
+        <xmax>258</xmax>
+        <ymax>224</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBad</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>531</xmin>
+        <ymin>17</ymin>
+        <xmax>792</xmax>
+        <ymax>248</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>6</xmin>
+        <ymin>634</ymin>
+        <xmax>216</xmax>
+        <ymax>792</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>48</xmin>
+        <ymin>1111</ymin>
+        <xmax>246</xmax>
+        <ymax>1252</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>222</xmin>
+        <ymin>730</ymin>
+        <xmax>402</xmax>
+        <ymax>871</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>645</xmin>
+        <ymin>652</ymin>
+        <xmax>789</xmax>
+        <ymax>751</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBad</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>624</xmin>
+        <ymin>886</ymin>
+        <xmax>792</xmax>
+        <ymax>1027</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>6</xmin>
+        <ymin>14</ymin>
+        <xmax>786</xmax>
+        <ymax>652</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>6</xmin>
+        <ymin>634</ymin>
+        <xmax>243</xmax>
+        <ymax>1255</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>219</xmin>
+        <ymin>640</ymin>
+        <xmax>789</xmax>
+        <ymax>871</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>237</xmin>
+        <ymin>883</ymin>
+        <xmax>789</xmax>
+        <ymax>1255</ymax>
+    </bndbox>
+</object>
+</annotation>

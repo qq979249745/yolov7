@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>mhImages</folder>
+<filename>v2-7507606918a142b7969df2831f47d82d_r.jpg</filename>
+<path>D:\mhImages\v2-7507606918a142b7969df2831f47d82d_r.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>2239</width>
+    <height>1446</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>boxEllipse</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>127</xmin>
+        <ymin>71</ymin>
+        <xmax>407</xmax>
+        <ymax>491</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>475</xmin>
+        <ymin>75</ymin>
+        <xmax>847</xmax>
+        <ymax>531</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxCloud</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>899</xmin>
+        <ymin>107</ymin>
+        <xmax>1311</xmax>
+        <ymax>591</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxWave</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1379</xmin>
+        <ymin>83</ymin>
+        <xmax>1707</xmax>
+        <ymax>603</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxCube</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1827</xmin>
+        <ymin>95</ymin>
+        <xmax>2095</xmax>
+        <ymax>515</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxThink</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>199</xmin>
+        <ymin>743</ymin>
+        <xmax>579</xmax>
+        <ymax>1167</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxElec</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>691</xmin>
+        <ymin>723</ymin>
+        <xmax>1039</xmax>
+        <ymax>1259</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxFlash</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1151</xmin>
+        <ymin>711</ymin>
+        <xmax>1527</xmax>
+        <ymax>1231</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBad</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1647</xmin>
+        <ymin>707</ymin>
+        <xmax>1991</xmax>
+        <ymax>1215</ymax>
+    </bndbox>
+</object>
+</annotation>

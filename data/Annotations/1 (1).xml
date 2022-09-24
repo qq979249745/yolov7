@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>mhImages</folder>
+<filename>1 (1).jpg</filename>
+<path>D:\mhImages\1 (1).jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>800</width>
+    <height>1271</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>85</xmin>
+        <ymin>104</ymin>
+        <xmax>325</xmax>
+        <ymax>276</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxBomb</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>27</xmin>
+        <ymin>41</ymin>
+        <xmax>768</xmax>
+        <ymax>940</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>minBox</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>25</xmin>
+        <ymin>917</ymin>
+        <xmax>764</xmax>
+        <ymax>1215</ymax>
+    </bndbox>
+</object>
+</annotation>
