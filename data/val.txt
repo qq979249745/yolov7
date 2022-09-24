@@ -1,11 +1,11 @@
 data/images/1.jpg
-data/images/10 (1).jpg
+data/images/10(1).jpg
 data/images/11.jpg
 data/images/20.jpg
-data/images/21 (1).jpg
-data/images/3 (1).jpg
+data/images/21(1).jpg
+data/images/3(1).jpg
 data/images/4.jpg
-data/images/7 (1).jpg
+data/images/7(1).jpg
 data/images/77d79c083af1455db4b00f2973795a3d.jpg
 data/images/9e7cfcf14d8345639858f91dae222794.jpg
 data/images/f7032cdd9ed44971aaef62d6724b9554.jpg
