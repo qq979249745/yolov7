@@ -73,24 +73,27 @@ def load_dataset(path):
     for xml_file in glob.glob("{}/*xml".format(path)):
         tree = ET.parse(xml_file)
         # 图片高度
-        height = int(tree.findtext("./size/height"))
-        # 图片宽度
-        width = int(tree.findtext("./size/width"))
+        try:
+            height = int(tree.findtext("./size/height"))
+            # 图片宽度
+            width = int(tree.findtext("./size/width"))
 
-        for obj in tree.iter("object"):
-            # 偏移量
-            xmin = int(obj.findtext("bndbox/xmin")) / width
-            ymin = int(obj.findtext("bndbox/ymin")) / height
-            xmax = int(obj.findtext("bndbox/xmax")) / width
-            ymax = int(obj.findtext("bndbox/ymax")) / height
-            xmin = np.float64(xmin)
-            ymin = np.float64(ymin)
-            xmax = np.float64(xmax)
-            ymax = np.float64(ymax)
-            if xmax == xmin or ymax == ymin:
-                print(xml_file)
-            # 将Anchor的长宽放入dateset，运行kmeans获得Anchor
-            dataset.append([xmax - xmin, ymax - ymin])
+            for obj in tree.iter("object"):
+                # 偏移量
+                xmin = int(obj.findtext("bndbox/xmin")) / width
+                ymin = int(obj.findtext("bndbox/ymin")) / height
+                xmax = int(obj.findtext("bndbox/xmax")) / width
+                ymax = int(obj.findtext("bndbox/ymax")) / height
+                xmin = np.float64(xmin)
+                ymin = np.float64(ymin)
+                xmax = np.float64(xmax)
+                ymax = np.float64(ymax)
+                if xmax == xmin or ymax == ymin:
+                    print(xml_file)
+                # 将Anchor的长宽放入dateset，运行kmeans获得Anchor
+                dataset.append([xmax - xmin, ymax - ymin])
+        except TypeError as e:
+            print(e)
     return np.array(dataset)
 
 

@@ -2,10 +2,9 @@ import xml.etree.ElementTree as ET
 import os
 
 # 类别
-CLASSES = ["minBox", "boxEllipse", "boxBomb", "boxFlash", "boxCloud", "boxCube", "boxThink", "boxElec", "boxWave",
-           "boxBad"]
+CLASSES = ["minBox","boxEllipse","boxBomb","boxFlash","boxCloud","boxCube","boxThink","boxElec","boxWave","boxBad"]
 # xml文件路径
-xml_input = "D:\\mhImages\\voc\\outputs\\"
+xml_input = "D:\\mhImages\\outputs\\"
 
 
 def convert(size, box):
@@ -33,21 +32,22 @@ def convert_annotation(image_id):
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find("size")
-    w = int(size.find("width").text)
-    h = int(size.find("height").text)
-    for obj in root.iter("object"):
-        difficult = obj.find("difficult").text
-        obj_cls = obj.find("name").text
-        if obj_cls not in CLASSES or int(difficult) == 1:
-            continue
-        cls_id = CLASSES.index(obj_cls)
-        xmlbox = obj.find("bndbox")
-        points = (float(xmlbox.find("xmin").text),
-                  float(xmlbox.find("xmax").text),
-                  float(xmlbox.find("ymin").text),
-                  float(xmlbox.find("ymax").text))
-        bb = convert((w, h), points)
-        out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + "\n")
+    if size:
+        w = int(size.find("width").text)
+        h = int(size.find("height").text)
+        for obj in root.iter("object"):
+            difficult = obj.find("difficult").text
+            obj_cls = obj.find("name").text
+            if obj_cls not in CLASSES or int(difficult) == 1:
+                continue
+            cls_id = CLASSES.index(obj_cls)
+            xmlbox = obj.find("bndbox")
+            points = (float(xmlbox.find("xmin").text),
+                      float(xmlbox.find("xmax").text),
+                      float(xmlbox.find("ymin").text),
+                      float(xmlbox.find("ymax").text))
+            bb = convert((w, h), points)
+            out_file.write(str(cls_id) + " " + " ".join([str(a) for a in bb]) + "\n")
 
 
 def make_label_txt():

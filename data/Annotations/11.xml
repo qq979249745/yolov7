@@ -26,7 +26,7 @@
     </bndbox>
 </object>
     <object>
-    <name>boxCloud</name>
+    <name>boxWave</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
