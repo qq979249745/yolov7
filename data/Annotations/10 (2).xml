@@ -19,10 +19,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>50</xmin>
-        <ymin>48</ymin>
-        <xmax>194</xmax>
-        <ymax>228</ymax>
+        <xmin>45</xmin>
+        <ymin>44</ymin>
+        <xmax>189</xmax>
+        <ymax>221</ymax>
     </bndbox>
 </object>
     <object>
@@ -31,10 +31,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>214</xmin>
-        <ymin>48</ymin>
-        <xmax>458</xmax>
-        <ymax>226</ymax>
+        <xmin>213</xmin>
+        <ymin>44</ymin>
+        <xmax>462</xmax>
+        <ymax>221</ymax>
     </bndbox>
 </object>
     <object>
@@ -43,10 +43,22 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>55</xmin>
+        <xmin>54</xmin>
         <ymin>632</ymin>
-        <xmax>280</xmax>
-        <ymax>787</ymax>
+        <xmax>285</xmax>
+        <ymax>788</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>boxWave</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>132</xmin>
+        <ymin>782</ymin>
+        <xmax>324</xmax>
+        <ymax>908</ymax>
     </bndbox>
 </object>
     <object>
@@ -55,10 +67,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>646</xmin>
+        <xmin>645</xmin>
         <ymin>1004</ymin>
         <xmax>744</xmax>
-        <ymax>1098</ymax>
+        <ymax>1097</ymax>
     </bndbox>
 </object>
     <object>
@@ -67,10 +79,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>49</xmin>
-        <ymin>47</ymin>
-        <xmax>746</xmax>
-        <ymax>624</ymax>
+        <xmin>45</xmin>
+        <ymin>44</ymin>
+        <xmax>195</xmax>
+        <ymax>563</ymax>
     </bndbox>
 </object>
     <object>
@@ -79,10 +91,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>52</xmin>
-        <ymin>48</ymin>
-        <xmax>192</xmax>
-        <ymax>560</ymax>
+        <xmin>42</xmin>
+        <ymin>44</ymin>
+        <xmax>750</xmax>
+        <ymax>632</ymax>
     </bndbox>
 </object>
     <object>
@@ -91,10 +103,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>49</xmin>
-        <ymin>629</ymin>
-        <xmax>749</xmax>
-        <ymax>979</ymax>
+        <xmin>42</xmin>
+        <ymin>620</ymin>
+        <xmax>747</xmax>
+        <ymax>983</ymax>
     </bndbox>
 </object>
     <object>
@@ -103,22 +115,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-        <xmin>47</xmin>
-        <ymin>1006</ymin>
-        <xmax>746</xmax>
-        <ymax>1151</ymax>
-    </bndbox>
-</object>
-    <object>
-    <name>boxWave</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-        <xmin>135</xmin>
-        <ymin>788</ymin>
-        <xmax>327</xmax>
-        <ymax>914</ymax>
+        <xmin>42</xmin>
+        <ymin>1001</ymin>
+        <xmax>750</xmax>
+        <ymax>1157</ymax>
     </bndbox>
 </object>
 </annotation>

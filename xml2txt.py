@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 
 # 类别
-CLASSES = ["minBox","boxEllipse","boxBomb","boxFlash","boxCloud","boxCube","boxThink","boxElec","boxWave","boxBad"]
+CLASSES = ["minBox","boxEllipse","boxBomb","boxFlash","boxCube","boxWave","boxBad"]
 # xml文件路径
 xml_input = "D:\\mhImages\\outputs\\"
 

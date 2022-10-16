@@ -13,5 +13,5 @@ val: ./data/val.txt  # 5000 images
 nc: 10
 
 # class names
-names: ["minBox","boxEllipse","boxBomb","boxFlash","boxCloud","boxCube","boxThink","boxElec","boxWave","boxBad"]
+names: ["minBox","boxEllipse","boxBomb","boxFlash","boxCube","boxWave","boxBad"]
 

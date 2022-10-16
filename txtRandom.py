@@ -7,7 +7,7 @@ def main():
     files = os.listdir(path)
     num = len(files)
     list = range(num)
-    tr = int(num * 0.8)
+    tr = int(num * 0.7)
     train = random.sample(list, tr)
     trainval = open('data/train.txt', 'w')
     test = open('data/val.txt', 'w')
