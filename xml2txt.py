@@ -2,9 +2,9 @@ import xml.etree.ElementTree as ET
 import os
 
 # 类别
-CLASSES = ["minBox","boxEllipse","boxBomb","boxFlash","boxCube","boxWave","boxBad"]
+CLASSES = ["minBox","boxText"]
 # xml文件路径
-xml_input = "D:\\mhImages\\outputs\\"
+xml_input = "D:\\mhImages\\img\\outputs\\"
 
 
 def convert(size, box):
@@ -28,7 +28,7 @@ def convert_annotation(image_id):
     # 并将四个物理量归一化
     in_file = open(xml_input + image_id)
     image_id = image_id.split(".")[0]
-    out_file = open("D:\\mhImages\\voc\\txt\\%s.txt" % image_id, "w")
+    out_file = open("data/labels/%s.txt" % image_id, "w")
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find("size")
